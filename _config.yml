@@ -2,4 +2,7 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "bits of string"
+  description: |
+    A site for buying second hand and unused yarn
   font_url: "https://use.typekit.net/fba6kam.css"
