@@ -1,0 +1,15 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--color-neutral);
+  padding: 1em;
+  align-content: center;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  color: var(--color-extra);
+}
