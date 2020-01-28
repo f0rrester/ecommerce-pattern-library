@@ -20,6 +20,14 @@
   border-color: var(--color-primary);
 }
 
-.btn-ghost {
+.btn-ghost:hover {
   background-color: var(--color-extra);
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-light {
+  background-color: var(--color-extra);
+  border-color: var(--color-primary)
+  color: var(--color-primary)
 }
