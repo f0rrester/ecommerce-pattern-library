@@ -1,0 +1,10 @@
+:root {
+  --color-primary: firebrick;
+  --color-primary-light: red;
+  --color-seconday: gold;
+  --color-accent: blue;
+  --color-neutral: white;
+  --color-extra: silver;
+  --font-primary: Arial, sans-serif;
+  --font-secondary: cooper-black-std, serif;
+}
