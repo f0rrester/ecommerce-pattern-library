@@ -8,3 +8,7 @@
   --font-primary: Arial, sans-serif;
   --font-secondary: cooper-black-std, serif;
 }
+
+html {
+  font-family: var(--font-primary);
+}
