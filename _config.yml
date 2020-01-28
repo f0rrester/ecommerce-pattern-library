@@ -6,3 +6,17 @@ patternbot:
   description: |
     A site for buying second hand and unused yarn
   font_url: "https://use.typekit.net/fba6kam.css"
+  colors:
+    background: "--color-extra"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Arial is used here because it is relatively easy to read in short paragraphs and keeps with the clean aesthetic of the site.
+    typefaces.secondary: |
+      Cooper black is used in the headings, and buttons because it is a big, bold, and curvy typeface that looks friendly and soft like yarn. It also shed the normal business appearence of other sites.
+  colors.primary: |
+    The primary colours are bright red because it draws the eye and contrasts well against the red.However this hould nto be used for body copy since red on white is harder to read in smaller fonts.
+  colors.secondary: |
+    The secondary colours are designed to be used sparingly. The light grey can be used to add a subtle contrast against a white background. Blue and yellow may be used to draw the eye to specific tasks.
