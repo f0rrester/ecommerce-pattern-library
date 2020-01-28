@@ -7,7 +7,7 @@ patternbot:
     A site for buying second hand and unused yarn
   font_url: "https://use.typekit.net/fba6kam.css"
   colors:
-    background: "--color-extra"
+    background: "--color-neutral"
     accent: "--color-primary"
     patterns:
       brand.logos: "--color-secondary"

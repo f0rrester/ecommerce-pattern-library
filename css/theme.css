@@ -1,6 +1,6 @@
 :root {
-  --color-primary: firebrick;
-  --color-primary-light: red;
+  --color-primary: red;
+  --color-primary-dark: firebrick;
   --color-seconday: gold;
   --color-accent: blue;
   --color-neutral: white;
