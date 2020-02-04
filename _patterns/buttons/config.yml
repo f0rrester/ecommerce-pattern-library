@@ -1,0 +1,17 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatice, obvious action is required. Try no to over use buttons because they should be the primary call-to-action for a screen.
+
+Patterns:
+  Basic:
+    Title: "Basic"
+    Description: |
+      This is the default button for the biggest actions like Check-out or the Surprise-me button
+  Ghost:
+    Title: "Ghost"
+    Description: |
+      This button should be used within cards to add items to the bag/cart or to actually examine the cart/bag. These are not the biggest actions on the page but may be the main desired action.
+  Light:
+    Title: "Light"
+    Description: |
+      This button should be used in places where an action must be made available but is not desired. Primarily this will be used to remove items from a cart/bag.
