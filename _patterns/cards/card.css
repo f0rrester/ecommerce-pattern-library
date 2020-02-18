@@ -11,5 +11,14 @@
 }
 
 .productcard .image {
+  padding: 1em;
   max-width: 50%;
+}
+
+
+
+.productcard {
+  border-radius: 2em;
+  border-width: medium;
+  border-color: var(--color-primary);
 }
