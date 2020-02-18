@@ -1,0 +1,15 @@
+.productcard:hover {
+  background-color: var(--color-extra);
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.icon-display {
+  width:90%;
+}
+
+.productcard .image {
+  max-width: 50%;
+}
