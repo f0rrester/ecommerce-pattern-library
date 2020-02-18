@@ -15,7 +15,9 @@
   max-width: 50%;
 }
 
-
+.formlinks {
+  color: var(--color-accent);
+}
 
 .productcard {
   border-radius: 2em;
