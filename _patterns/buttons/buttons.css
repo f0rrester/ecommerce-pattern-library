@@ -31,3 +31,15 @@
   border-color: var(--color-primary)
   color: var(--color-primary)
 }
+
+.btn-nav {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: transparent;
+}
+
+.btn-nav:hover {
+  background-color: var(--color-extra);
+  color: var(--color-primary-dark);
+  border-color: transparent;
+}

@@ -17,6 +17,7 @@ h1 {
   font-family: var(--font-secondary);
   font-style: bold;
   color: var(--color-primary);
+  margin-bottom: 0;
 }
 
 h2 {

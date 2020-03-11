@@ -5,3 +5,11 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.li {
+  text-decoration: none;
+}
+
+.ul {
+  text-decoration: none;
+}
