@@ -9,19 +9,16 @@
 </head>
 <body>
 
-  <header class="nav">
-      <div class="">
-        {% pattern buttons/home %}
-      </div>
-
-      <div class="push-none">
-        <h1>Bits of String</h1>
-      </div>
-
-      <div class="push-none">
-        {% pattern header-footer/nav %}
-      </div>
-  </header>
+  <footer role="contentinfo" class="border-top border-bottom pad-t-2 text-center">
+    <div>
+      <nav class="">
+        <ul class="nav list-group flex-row">
+          <li class="">{% pattern buttons/navbutton %}</li>
+          <li class="">{% pattern buttons/navbutton %}</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
 
 </body>
 </html>
