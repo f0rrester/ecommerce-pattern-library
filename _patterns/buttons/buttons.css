@@ -43,3 +43,9 @@
   color: var(--color-primary-dark);
   border-color: transparent;
 }
+
+.btn-ftr {
+  background-color: var(--color-primary-dark);
+  color: var(--color-neutral);
+  border-color: transparent;
+}

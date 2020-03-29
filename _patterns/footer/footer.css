@@ -1,3 +1,7 @@
 .copyright {
-  color: var(--color-primary-dark)
+  color: var(--color-neutral);
+}
+
+footer {
+  background-color: var(--color-primary-dark);
 }
