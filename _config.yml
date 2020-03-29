@@ -20,3 +20,6 @@ patternbot:
       The primary colours are bright red because it draws the eye and contrasts well against the red.However this hould nto be used for body copy since red on white is harder to read in smaller fonts.
     colors.secondary: |
       The secondary colours are designed to be used sparingly. The light grey can be used to add a subtle contrast against a white background. Blue and yellow may be used to draw the eye to specific tasks.
+  layouts:
+    default: |
+      The default layout should be used on all pages and includes the footer and header. Be sure to add banners, these are not included.

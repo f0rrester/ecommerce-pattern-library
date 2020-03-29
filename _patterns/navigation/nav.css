@@ -8,3 +8,13 @@
   margin: 0;
   align-items: center;
 }
+
+.navtext {
+  padding: 1em;
+  color: var(--color-primary);
+  font-family: cooper-black-std, serif;
+}
+
+.navtext:hover {
+  color: var(--color-secondary);
+}
