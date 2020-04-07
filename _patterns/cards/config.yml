@@ -16,6 +16,14 @@ patterns:
       - name: image
         type: string
         example: "yarnplaceholder.jfif"
+      - name: button_text
+        type: string
+        example: "Add to Cart"
+        required: false
+      - name: button_url
+        type: url
+        example: "/"
+        required: "false"
 
   product-cart:
     title: "product-cart"
@@ -31,8 +39,25 @@ patterns:
       - name: image
         type: string
         example: "yarnplaceholder.jfif"
+      - name: button_text
+        type: string
+        example: "Remove"
+        required: false
+      - name: button_url
+        type: url
+        example: "/"
+        required: "false"
 
   basket:
     title: "basket"
     description: |
-      Use this card on the my cart and checkout page
+      Use this card on the my cart and checkout page. Button links to "checkout.html"
+    fields:
+      - name: button_text
+        type: string
+        example: "checkout"
+        required: false
+      - name: button_url
+        type: url
+        example: "/checkout/"
+        required: "false"
