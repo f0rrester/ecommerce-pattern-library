@@ -1,0 +1,14 @@
+patterns:
+  homebanner:
+    fields:
+      - name: heading
+        type: string
+        example: "Where One Yarn Ends Another Begins"
+      - name: button_text
+        type: string
+        example: "Shop Now!"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: "false"

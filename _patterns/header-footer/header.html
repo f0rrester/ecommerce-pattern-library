@@ -11,9 +11,9 @@
     <div class="push-none">
       <nav class="text-center align-left">
         <ul class="nav list-group flex-row">
-          <li class="navtext"><a href="/products/">Products</a></li>
-          <li class="navtext"><a href="/cart/">My Cart</a></li>
-          <li class="navtext"><a href="/checkout/">Checkout</a></li>
+          <li class="navtext {% if page.highlight_nav == 'products' %}current{% endif %}"><a href="/products/">Products</a></li>
+          <li class="navtext {% if page.highlight_nav == 'mycart' %}current{% endif %}"><a href="/cart/">My Cart</a></li>
+          <li class="navtext {% if page.highlight_nav == 'checkout' %}current{% endif %}"><a href="/checkout/">Checkout</a></li>
         </ul>
       </nav>
     </div>

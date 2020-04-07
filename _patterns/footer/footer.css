@@ -1,7 +1,9 @@
 .copyright {
-  color: var(--color-neutral);
+  color: var(--color-extra);
 }
 
 footer {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-neutral);
+  border-top: 10px solid var(--color-primary);
+  border-bottom: 10px solid var(--color-primary)
 }

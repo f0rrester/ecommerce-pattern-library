@@ -10,15 +10,23 @@
 </head>
 <body>
   <div class="grid grid-middle card maincard">
-    <div class="unit xs-1 s-1-2 m-1">
-      <img class="img-flex image yarn" src="/images/yarn/yarnplaceholder.jfif" alt="">
+    <div class="unit xs-1 s-1-2 m-1-2">
+      <img class="img-flex image yarn" src="/images/yarn/{{include.image}}" alt="">
     </div>
-    <div class="unit xs-1 s-1-2 m-1 align-bottom unit-content-distribute">
-      <h2>Pink Yarn</h2>
-      <p>A nice naturally dyed calmon coloured, thin wool yarn.</p>
-      <p>$4.99</p>
-      <div class="">
-        {% pattern buttons/ghost %}
+
+    <div class="unit xs-1 s-1-2 m-1-2 align-bottom unit-content-distribute grid">
+      <div class="unit xs-1">
+        <h2>{{include.heading}}</h2>
+        <p>{{include.text}}</p>
+      </div>
+
+      <div class="unit xs-1 grid">
+        <div class="unit xs-1-2">
+          <p class="price">{{include.price}}</p>
+        </div>
+        <div class="unit xs-1-2">
+          {% pattern buttons/ghost text="Add to Cart" url="/" %}
+        </div>
       </div>
     </div>
   </div>

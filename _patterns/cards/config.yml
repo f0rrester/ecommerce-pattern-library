@@ -1,0 +1,38 @@
+patterns:
+  yarn:
+    title: "yarn"
+    description: |
+      This is the default card to be used for poduct display on main pages. Do not use in checkout or basket.
+    fields:
+      - name: heading
+        type: string
+        example: "Pink Irish Wool"
+      - name: text
+        type: string
+        example: "This thick knit wool was imported directly from the Emerald Isle and is ideally suited for larger pieces."
+      - name: price
+        type: number
+        example: "$4.99"
+      - name: image
+        type: string
+        example: "yarnplaceholder.jfif"
+
+  product-cart:
+    title: "product-cart"
+    description: |
+       This card is to only be used to display products in the cart/basket when viewed on the My Cart and Checkout pages. Should be used in tandem with basket card.
+    fields:
+      - name: heading
+        type: string
+        example: "Pink Irish Wool"
+      - name: price
+        type: number
+        example: $4.99
+      - name: image
+        type: string
+        example: "yarnplaceholder.jfif"
+
+  basket:
+    title: "basket"
+    description: |
+      Use this card on the my cart and checkout page

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: none;
 }
 
 .h1 {
@@ -17,4 +18,8 @@
 
 .navtext:hover {
   color: var(--color-secondary);
+}
+
+.current {
+  color: var(--color-primary-dark);
 }

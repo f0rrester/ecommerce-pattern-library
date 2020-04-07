@@ -13,3 +13,13 @@
 .ul {
   text-decoration: none;
 }
+
+.banner {
+  padding: 2em;
+  border-top: 10px solid var(--color-primary);
+  border-bottom: 10px solid var(--color-primary);
+}
+
+.bannertext {
+  color: var(--color-primary-dark);
+}

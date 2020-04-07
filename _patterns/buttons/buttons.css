@@ -45,9 +45,19 @@
 }
 
 .btn-ftr {
-  background-color: var(--color-primary-dark);
-  color: var(--color-neutral);
+  background-color: var(--color-neutral);
+  color: var(--color-primary-dark);
   border-color: transparent;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.btn-ftr:hover {
+  background-color: var(--color-extra);
+  color: var(--color-primary-dark);
+  border-color: transparent;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .btn-home {

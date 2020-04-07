@@ -7,11 +7,43 @@ patterns:
     title: "Basic"
     description: |
       This is the default button for the biggest actions like Check-out or the Surprise-me button
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now!"
+      - name: url
+        type: url
+        example: "/products/"
   ghost:
     title: "Ghost"
     description: |
       This button should be used within cards to add items to the bag/cart or to actually examine the cart/bag. These are not the biggest actions on the page but may be the main desired action.
+    fields:
+      - name: text
+        type: string
+        example: "Add to Cart"
+      - name: url
+        type: url
+        example: "/"
   light:
     title: "Light"
     description: |
       This button should be used in places where an action must be made available but is not desired. Primarily this will be used to remove items from a cart/bag.
+    fields:
+      - name: text
+        type: string
+        example: "Remove"
+      - name: url
+        type: url
+        example: "/"
+  footerbutton:
+    title: "footerbutton"
+    description: |
+      Only use this in the footer navigation.
+    fields:
+      - name: text
+        type: string
+        example: "Contact"
+      - name: url
+        type: url
+        example: "/contact/"

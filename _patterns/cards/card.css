@@ -13,6 +13,7 @@
 .productcard .image {
   padding: 1em;
   max-width: 50%;
+  text-align: center;
 }
 
 .formlinks {
@@ -23,4 +24,16 @@
   border-radius: 2em;
   border-width: medium;
   border-color: var(--color-primary);
+}
+
+.price {
+  color: var(--color-primary-dark);
+}
+
+.flex {
+  justify-content: space-between;
+}
+
+.remove {
+  text-align: right;
 }

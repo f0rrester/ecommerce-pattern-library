@@ -1,8 +1,10 @@
-<div id="card" class="banner">
-  <div class="pin-c">
-    <h1 class="yotta text-center push">Where one yarn ends, another begins!</h1>
-    <div class="text-center tera bold">
-      {% pattern buttons/basic %}
+<div class="relative banner center-content" id="card" role="banner">
+  <div class="gutter-2 text-position w-1 grid">
+    <h1 class="text-position-center push-0 banner-title unit s-1-1 m-1-2 bannertext">{{include.heading}}</h1>
+    <div class="text-center tera bold unit s-1-1 m-1-2">
+      {% if include.button_url %}
+        {% pattern buttons/basic url=include.button_url text=include.button_text %}
+      {% endif %}
     </div>
   </div>
-</div>
+</div
